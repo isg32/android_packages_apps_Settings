@@ -2079,6 +2079,50 @@
     <!-- Label for Wifi hotspot AP Band. -->
     <string name="wifi_hotspot_ap_band_title">AP Band</string>
 
+    <!-- Wifi hotspot Client Manager settings -->
+    <!-- Wifi hotspot Hidden SSID name. -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <!-- Wifi hotspot Hidden SSID summary. -->
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <!-- Wifi hotspot band version. -->
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <!-- Wifi hotspot auto turnoff timeout. -->
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
+        <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
+
+    <!-- Wifi hotspot client manager name. -->
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <!-- Wifi hotspot client manager summary. -->
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <!-- Wifi hotspot clients connected. -->
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <!-- Wifi hotspot client limit name. -->
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <!-- Wifi hotspot clients connacted devices list. -->
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
+        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+    </plurals>
+    <!-- Wifi hotspot clients blocked title. -->
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <!-- Wifi hotspot client connected title. -->
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <!-- Wifi hotspot clients blocked name. -->
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <!-- Wifi hotspot manager popup dialog. -->
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <!-- Wifi hotspot client unblock text. -->
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <!-- Wifi hotspot client unblock warning text. -->
+    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <!-- Wifi hotspot client manager footer text. -->
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+
     <!-- Title for the toggle to turn off hotspot automatically [CHAR LIMIT=NONE]-->
     <string name="wifi_hotspot_auto_off_title">Turn off hotspot automatically</string>
     <!-- Summary for the toggle to turn off hotspot automatically [CHAR LIMIT=NONE]-->
